@@ -1,6 +1,6 @@
 {
   "name": "@karthikbalasubramanian/paperplanes",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "types used in paperplanes backend",
   "main": "dist/index.js",
   "scripts": {
