@@ -16,7 +16,7 @@ export const SigninInputSchema = z.object({
 
 export type SigninInput = z.infer<typeof SigninInputSchema>; 
 
-const CreateblogInputSchema = z.object({
+export const CreateblogInputSchema = z.object({
     title: z.string(),
     content: z.string()
 })
@@ -24,7 +24,7 @@ const CreateblogInputSchema = z.object({
 export type CreateblogInput = z.infer<typeof CreateblogInputSchema>;
 
 
-const UpdateblogInputSchema = z.object({
+export const UpdateblogInputSchema = z.object({
     title: z.string(),
     content: z.string(),
     id: z.number()
