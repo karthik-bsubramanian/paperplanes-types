@@ -1,6 +1,6 @@
 {
-  "name": "@karthikbalasubramanian/paperplanes-types",
-  "version": "1.0.1",
+  "name": "@karthikbalasubramanian/paperplanes",
+  "version": "2.0.0",
   "description": "types used in paperplanes backend",
   "main": "dist/index.js",
   "scripts": {
@@ -14,3 +14,4 @@
     "zod": "^3.25.23"
   }
 }
+  
